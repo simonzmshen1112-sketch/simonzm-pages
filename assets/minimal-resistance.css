@@ -42,7 +42,7 @@ h1 { margin: 0; color: var(--ink); font-family: var(--serif); font-size: clamp(3
 .directory-head { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 28px; padding-bottom: 22px; border-bottom: 1px solid var(--line-strong); }
 .directory-head h2 { margin: 0; color: var(--ink); font-size: 18px; line-height: 1.4; }
 .directory-head p { margin: 0; max-width: 760px; color: rgba(0, 0, 0, 0.68); font-size: 16px; line-height: 1.85; }
-.article-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; margin-top: 26px; background: var(--line); border: 1px solid var(--line); }
+.article-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; margin-top: 26px; background: var(--line); border: 1px solid var(--line); }
 .article-card { display: grid; min-height: 340px; padding: 26px; background: #fff; text-decoration: none; transition: background 160ms ease; }
 .article-card:hover { background: #f8f8f5; }
 .article-card:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
