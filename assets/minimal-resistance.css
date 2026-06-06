@@ -38,6 +38,7 @@ h1 { margin: 0; color: var(--ink); font-family: var(--serif); font-size: clamp(3
 .visual { margin: 0; border: 1px solid var(--line-strong); background: #fff; }
 .visual img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
 .visual figcaption { border-top: 1px solid var(--line); padding: 10px 12px; color: var(--muted); font-size: 12px; line-height: 1.5; }
+.directory-visual { display: none !important; }
 
 .directory { padding-top: 42px; }
 .directory-head { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 28px; padding-bottom: 22px; border-bottom: 1px solid var(--line-strong); }
